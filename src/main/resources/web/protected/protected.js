@@ -1,0 +1,3 @@
+function pro() {
+	alert("protected")
+}

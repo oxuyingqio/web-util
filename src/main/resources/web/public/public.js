@@ -1,0 +1,3 @@
+function pub() {
+	alert("public")
+}
