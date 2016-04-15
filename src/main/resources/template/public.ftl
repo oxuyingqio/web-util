@@ -5,6 +5,6 @@
 
 </head>
 <body>
-	123
+	This is a public file!
 </body>
 </html>
