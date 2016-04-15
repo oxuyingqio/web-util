@@ -3,7 +3,7 @@
  "http://java.sun.com/dtd/web-app_2_3.dtd" >
 
 <web-app>
-	<display-name>web-util111</display-name>
+	<display-name>web-util</display-name>
 
 	<!-- Web资源文件Servlet -->
 	<servlet>
