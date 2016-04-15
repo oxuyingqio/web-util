@@ -67,6 +67,7 @@
 					<skipTests>${skipTests}</skipTests>
 				</configuration>
 			</plugin>
+			
 			<!-- maven打jar包插件 -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
