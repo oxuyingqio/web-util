@@ -13,7 +13,7 @@
 	<!-- 公共配置 -->
 	<properties>
 		<project.build.jdk.version>1.8</project.build.jdk.version>
-		<project.build.encoding>UTF-8</project.build.encoding>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
 		<project.build.server.contextPath>/${project.artifactId}</project.build.server.contextPath>
 		<project.build.server.port>8080</project.build.server.port>
@@ -70,7 +70,7 @@
 					<!-- 目标版本 -->
 					<target>${project.build.jdk.version}</target>
 					<!-- 编码格式 -->
-					<encoding>${project.build.encoding}</encoding>
+					<encoding>${project.build.sourceEncoding}</encoding>
 				</configuration>
 			</plugin>
 			<!-- maven单元测试插件 -->
