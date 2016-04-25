@@ -3,7 +3,7 @@ package cn.xuyingqi.web.util.utils;
 import javax.servlet.http.HttpServletRequest;
 
 /**
- * HttpServletRequest工具类
+ * HttpServletRequest工具类123
  * 
  * @author XuYQ
  *
