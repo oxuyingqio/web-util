@@ -49,6 +49,15 @@
 	<build>
 		<!-- 除src/main/java外的源码包 -->
 		<resources>
+			<!-- 设置对src/main/java内的properties,xml不过滤,打包时包含 -->
+			<resource>
+				<directory>src/main/java</directory>
+				<includes>
+					<include>**/*.properties</include>
+					<include>**/*.xml</include>
+				</includes>
+				<filtering>false</filtering>
+			</resource>
 			<resource>
 				<directory>src/main/config</directory>
 			</resource>
