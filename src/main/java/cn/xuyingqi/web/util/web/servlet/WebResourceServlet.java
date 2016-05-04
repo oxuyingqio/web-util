@@ -11,12 +11,12 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
 
-import cn.xuyingqi.util.utils.StringUtils;
-import cn.xuyingqi.web.util.utils.HttpServletRequestUtils;
-import cn.xuyingqi.web.util.utils.PropertiesUtils;
-import cn.xuyingqi.web.util.utils.ResourceFile;
+import cn.xuyingqi.web.util.util.HttpServletRequestUtils;
+import cn.xuyingqi.web.util.util.PropertiesUtils;
+import cn.xuyingqi.web.util.util.ResourceFile;
 import cn.xuyingqi.web.util.vo.WebResourceProperties;
 
 /**

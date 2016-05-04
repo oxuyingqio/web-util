@@ -1,4 +1,4 @@
-package cn.xuyingqi.web.util.utils;
+package cn.xuyingqi.web.util.util;
 
 import java.net.MalformedURLException;
 import java.net.URL;

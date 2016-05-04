@@ -1,4 +1,4 @@
-package cn.xuyingqi.web.util.utils;
+package cn.xuyingqi.web.util.util;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -10,7 +10,7 @@ import java.util.Set;
 
 import org.apache.log4j.Logger;
 
-import cn.xuyingqi.util.utils.ClassUtils;
+import cn.xuyingqi.util.util.ClassUtils;
 
 /**
  * properties文件工具类

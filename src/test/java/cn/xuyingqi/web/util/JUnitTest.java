@@ -1,4 +1,4 @@
-package cn.xuyingqi.web.utils;
+package cn.xuyingqi.web.util;
 
 import org.junit.Test;
 

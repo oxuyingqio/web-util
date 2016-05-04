@@ -1,4 +1,4 @@
-package cn.xuyingqi.web.util.utils;
+package cn.xuyingqi.web.util.util;
 
 import java.io.File;
 import java.io.InputStream;
