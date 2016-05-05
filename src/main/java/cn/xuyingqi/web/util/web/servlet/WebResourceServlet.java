@@ -38,7 +38,7 @@ public class WebResourceServlet extends HttpServlet {
 	// Web资源路径标志
 	private static final String WEB_RESOURCE_SIGN = "/~/";
 	// Web资源路径前缀
-	private static final String WEB_RESOURCE_PREFIX = "/web/";
+	private static final String WEB_RESOURCE_PREFIX = "/";
 
 	// Web资源配置
 	private WebResourceProperties webResourceProperties;
