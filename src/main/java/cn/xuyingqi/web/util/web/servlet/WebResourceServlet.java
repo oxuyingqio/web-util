@@ -37,6 +37,8 @@ public class WebResourceServlet extends HttpServlet {
 
 	// Web资源路径标志
 	private static final String WEB_RESOURCE_SIGN = "/~/";
+	// Web资源路径前缀
+	private static final String WEB_RESOURCE_PREFIX = "/web/";
 
 	// Web资源配置
 	private WebResourceProperties webResourceProperties;
@@ -62,7 +64,7 @@ public class WebResourceServlet extends HttpServlet {
 		}
 
 		// 获取去除标志后的文件路径信息
-		String filePath = "/"
+		String filePath = WEB_RESOURCE_PREFIX
 				+ requestURI.substring(requestURI.indexOf(WEB_RESOURCE_SIGN) + WEB_RESOURCE_SIGN.length());
 		// 输入流
 		InputStream is = null;
