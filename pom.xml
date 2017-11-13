@@ -21,6 +21,7 @@
 		<xuyingqi.version>0.0.1</xuyingqi.version>
 
 		<javax.servlet.version>3.0-alpha-1</javax.servlet.version>
+		<org.apache.httpcomponents.version>4.5.3</org.apache.httpcomponents.version>
 
 		<maven-compiler-plugin.version>3.5</maven-compiler-plugin.version>
 		<maven-surefire-plugin.version>2.19.1</maven-surefire-plugin.version>
@@ -44,7 +45,48 @@
 			<artifactId>servlet-api</artifactId>
 			<version>${javax.servlet.version}</version>
 		</dependency>
+
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient</artifactId>
+			<version>${org.apache.httpcomponents.version}</version>
+		</dependency>
 	</dependencies>
+
+	<repositories>
+		<repository>
+			<id>public</id>
+			<name>Public Repositories</name>
+			<url>http://192.168.0.203:8000/nexus/content/groups/public/</url>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
+
+	<pluginRepositories>
+		<pluginRepository>
+			<id>public</id>
+			<name>Public Repositories</name>
+			<url>http://192.168.0.203:8000/nexus/content/groups/public/</url>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</pluginRepository>
+	</pluginRepositories>
+
+	<distributionManagement>
+		<repository>
+			<id>v3-releases</id>
+			<name>privilege</name>
+			<url>http://192.168.0.203:8000/nexus/content/repositories/releases</url>
+		</repository>
+		<snapshotRepository>
+			<id>v3-snapshots</id>
+			<name>privilege</name>
+			<url>http://192.168.0.203:8000/nexus/content/repositories/snapshots</url>
+		</snapshotRepository>
+	</distributionManagement>
 
 	<build>
 		<!-- 除src/main/java外的源码包 -->
