@@ -199,10 +199,10 @@ public class HttpClientUtil {
 		// HttpPost
 		HttpPost httpPost = new HttpPost(url);
 
-		// 实例化代理
-		HttpHost proxy = new HttpHost("192.168.70.124", 808);
-		// 设置代理
-		httpPost.setConfig(RequestConfig.custom().setProxy(proxy).build());
+		// // 实例化代理
+		// HttpHost proxy = new HttpHost("192.168.70.124", 808);
+		// // 设置代理
+		// httpPost.setConfig(RequestConfig.custom().setProxy(proxy).build());
 
 		// 遍历头
 		for (Map.Entry<String, Object> param : headers.entrySet()) {
