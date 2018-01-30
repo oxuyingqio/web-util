@@ -33,7 +33,7 @@ import cn.xuyingqi.util.util.ListFactory;
  * @author XuYQ
  *
  */
-public class HttpClientUtil {
+public class HttpClientUtils {
 
 	/**
 	 * 默认编码集
@@ -48,7 +48,7 @@ public class HttpClientUtil {
 	/**
 	 * 私有构造方法
 	 */
-	private HttpClientUtil() {
+	private HttpClientUtils() {
 
 	}
 
