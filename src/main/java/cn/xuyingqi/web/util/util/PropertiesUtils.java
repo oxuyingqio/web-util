@@ -10,7 +10,7 @@ import java.util.Set;
 
 import org.apache.log4j.Logger;
 
-import cn.xuyingqi.util.util.ClassUtils;
+import cn.xuyingqi.util.ClassUtils;
 
 /**
  * properties文件工具类
